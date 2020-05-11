@@ -16,7 +16,7 @@ cp fonts/* ~/.fonts/
 ```
 Copy the folder **SimplecOne** for the directory **~/.conky/**
 ```shell
-cp SimplecOne/ ~/.conky
+cp -r SimplecOne/ ~/.conky
 ```
 ## Execute
 To run the widgets enter the commands:
