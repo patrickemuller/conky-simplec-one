@@ -12,7 +12,7 @@
 #-------------------------------#
 
 #Text Color
-color1 67809F
+color1 FFFFFF
 #Icons Color
 color2 AAA69D
 #Graph Color
@@ -23,7 +23,7 @@ double_buffer yes
 no_buffers yes
 imlib_cache_size 10
 own_window true
-own_window_type normal
+own_window_type desktop
 own_window_hints undecorated,sticky,skip_taskbar,skip_pager,below
 own_window_colour 000000
 own_window_argb_visual yes
@@ -49,9 +49,9 @@ $color1${execi 3600 ~/.conky/SimplecOne/weather.sh}
 ${goto 20}${color2}${font LineAwesomeMod :size=15}V $color1$font${execi 60 cat ~/.cache/weather.txt | grep city | cut -d">" -f2} - ${execi 60 cat ~/.cache/weather.txt | grep country | cut -d">" -f2}
 ${voffset 0}${goto 20}${color2}${font LineAwesomeMod :size=50}O $color1${font Roboto Condensed:size=50}${execi 60 cat ~/.cache/weather.txt | grep temp | cut -d">" -f2}º$color1 $font
 ${goto 20}${color2}${font LineAwesomeMod :size=15}O $color1$font ${execi 60 cat ~/.cache/weather.txt | grep description | cut -d">" -f2}
-${goto 20}${color2}${font LineAwesomeMod :size=15}) $color1$font Min: ${execi 60 cat ~/.cache/weather.txt | grep min | cut -d">" -f2}º  
+${goto 20}${color2}${font LineAwesomeMod :size=15}) $color1$font Min: ${execi 60 cat ~/.cache/weather.txt | grep min | cut -d">" -f2}º
 ${voffset -20}${alignr -89}${color2}${font LineAwesomeMod :size=15}( $color1$font Max: ${execi 60 cat ~/.cache/weather.txt | grep max | cut -d">" -f2}º
-${goto 20}${color2}${font LineAwesomeMod :size=15}! $color1$font Humidity: ${execi 60 cat ~/.cache/weather.txt | grep humidity | cut -d">" -f2}% 
+${goto 20}${color2}${font LineAwesomeMod :size=15}! $color1$font Humidity: ${execi 60 cat ~/.cache/weather.txt | grep humidity | cut -d">" -f2}%
 ${voffset -20}${alignr -164}${color2}${font LineAwesomeMod :size=15}o $color1$font Winds: ${execi 60 cat ~/.cache/weather.txt | grep wind | cut -d">" -f2} m/s
 ${goto 20}${color2}${font LineAwesomeMod :size=15}u $color1$font Pressure: ${execi 60 cat ~/.cache/weather.txt | grep pressure | cut -d">" -f2} hPa
 ${goto 20}${color2}${font LineAwesomeMod :size=15}p $color1$font Last Update: ${execi 60 cat ~/.cache/weather.txt | grep update | cut -d">" -f2}

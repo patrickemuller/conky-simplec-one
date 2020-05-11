@@ -3,7 +3,7 @@
 ########################################################
 # CONFIGURATION
 ########################################################
-# UNITY   = f for fahrenheit, c for celsius or k for kelvin   
+# UNITY   = f for fahrenheit, c for celsius or k for kelvin
 # API_KEY = free register in https://openweathermap.org
 #           and get your token
 # CITY    = your city name
@@ -11,9 +11,9 @@
 ########################################################
 
 UNITY="c"
-API_KEY="YOUR API KEY"
-CITY="New York"
-COUNTRY="us"
+API_KEY="MY_API_KEY"
+CITY="Taquara"
+COUNTRY="BR"
 
 ########################################################
 rm ~/.cache/weather.txt

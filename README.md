@@ -1,8 +1,8 @@
 # SimpleC - One Conky
 ![newscreen](https://user-images.githubusercontent.com/9018264/51747311-41090380-2090-11e9-95f2-10079281c6a5.png)
-Simple Conky Theme with 4 widgets: 
+Simple Conky Theme with 4 widgets:
 -Weather
--Clock/Calendar 
+-Clock/Calendar
 -System Info and Net Info
 -System Graph Monitor
 ## Requirements
@@ -59,3 +59,7 @@ Use your graphical environment to run the file **~/.conky/SimplecOne/start.sh** 
 
 ## Configuration
 See the [Wiki](https://github.com/luizfnunes/SimpleC-one-Conky/wiki)
+
+## Thanks to
+This project is authored by [Luiz Nunes](https://github.com/luizfnunes), which is the creator and I'm here just copying
+files and modifying to fit my current desktop at home.
